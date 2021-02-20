@@ -272,33 +272,6 @@ export const App = () => {
                       <h2>Skills</h2>
                     </div>
                   </div>
-                  <div class="row row-pb-md">
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                      <div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                      <div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                      <div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                      <div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                      <div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                      <div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                      <div class="chart" data-percent="85"><span><strong>Ruby</strong>85%</span></div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                      <div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div>
-                    </div>
-                  </div>
                   <div class="row">
                     <div class="col-md-6">
                       <div class="progress-wrap">
