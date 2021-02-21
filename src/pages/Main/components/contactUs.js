@@ -1,4 +1,4 @@
-import cover1 from './images/cover_bg_1.jpg';
+import cover1 from '../../../images/cover_bg_1.jpg';
 
 export const ContactUs = () => {
 

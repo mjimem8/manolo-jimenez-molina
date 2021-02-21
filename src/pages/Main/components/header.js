@@ -1,5 +1,5 @@
-import cover3 from './images/cover_bg_3.jpg';
-import user from './images/user-3.jpg';
+import cover3 from '../../../images/cover_bg_3.jpg';
+import user from '../../../images/user-3.jpg';
 
 export const Header = () => {
 

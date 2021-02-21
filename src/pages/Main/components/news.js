@@ -1,6 +1,6 @@
-import portfolio1 from './images/portfolio-1.jpg';
-import portfolio2 from './images/portfolio-2.jpg';
-import portfolio3 from './images/portfolio-3.jpg';
+import portfolio1 from '../../../images/portfolio-1.jpg';
+import portfolio2 from '../../../images/portfolio-2.jpg';
+import portfolio3 from '../../../images/portfolio-3.jpg';
 
 export const News = () => {
 
