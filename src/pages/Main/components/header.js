@@ -1,7 +1,8 @@
 import cover3 from '../../../images/cover_bg_3.jpg';
 import user from '../../../images/user-3.jpg';
+import PropTypes from 'prop-types';
 
-export const Header = () => {
+export const Header = ({ name, profession }) => {
 
   return (
     <header id="fh5co-header" className="fh5co-cover js-fullheight" role="banner" style={{backgroundImage: `url(${cover3})`}} data-stellar-background-ratio="0.5">
@@ -12,13 +13,11 @@ export const Header = () => {
             <div className="display-t js-fullheight">
               <div className="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
                 <div className="profile-thumb" style={{backgroundImage: `url(${user})`}}></div>
-                <h1><span>Manuel Jiménez Molina</span></h1>
-                <h3><span>Web Developer</span></h3>
+                <h1><span>{ name }</span></h1>
+                <h3><span>{ profession }</span></h3>
                 <ul className="fh5co-social-icons">
-                  <li><a href="#"><i className="icon-twitter2"></i></a></li>
-                  <li><a href="#"><i className="icon-facebook2"></i></a></li>
+                  {/* añadir infojob??  */}
                   <li><a href="#"><i className="icon-linkedin2"></i></a></li>
-                  <li><a href="#"><i className="icon-dribbble2"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -28,4 +27,10 @@ export const Header = () => {
     </header>
   );
 
+  
+}
+
+Header.propTypes = {
+  name: PropTypes.string.isRequired,
+  profession: PropTypes.string.isRequired
 }

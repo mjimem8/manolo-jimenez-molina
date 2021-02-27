@@ -8,6 +8,7 @@ import { News } from './components/news';
 import { ContactUs } from './components/contactUs';
 import { Footer } from './components/footer';
 import { ArrowButton } from './components/arrowButton';
+import { infoPersonal } from '../../data';
 
 export const Main = () => {
 
@@ -16,9 +17,9 @@ export const Main = () => {
            <div className="fh5co-loader"></div>
 	
             <div id="page">	
-              <Header/>
+              <Header name={ infoPersonal.name } profession={ infoPersonal.profession }/>
 
-              <AboutMe />
+              <AboutMe infoPersonal={ infoPersonal }/>
 
               <MyResume />             
 

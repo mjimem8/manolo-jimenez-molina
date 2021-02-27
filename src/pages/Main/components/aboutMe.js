@@ -1,31 +1,36 @@
-export const AboutMe = () => {
+import PropTypes from 'prop-types';
+
+export const AboutMe = ({ infoPersonal: info }) => {
 
   return (
     <div id="fh5co-about" className="animate-box">
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-            <h2>About Me</h2>
+            <h2>Sobre mi</h2>
           </div>
         </div>
         <div className="row">
           <div className="col-md-4">
             <ul className="info">
-              <li><span className="first-block">Full Name:</span><span className="second-block">Louie Jie Mahusay</span></li>
-              <li><span className="first-block">Phone:</span><span className="second-block">+ 1235 2355 98</span></li>
-              <li><span className="first-block">Email:</span><span className="second-block">info@yoursite.com</span></li>
-              <li><span className="first-block">Website:</span><span className="second-block">www.yoursite.com</span></li>
-              <li><span className="first-block">Address:</span><span className="second-block">198 West 21th Street, Suite 721 New York NY 10016</span></li>
+              <li><span className="first-block">Nombre:</span><span className="second-block">{ info.name }</span></li>
+              <li><span className="first-block">Teléfono:</span><span className="second-block">{ info.phone }</span></li>
+              <li><span className="first-block">Email:</span><span className="second-block">{ info.email }</span></li>
+              <li><span className="first-block">GitHub:</span><span className="second-block">{ info.gitHub }</span></li>
+              <li><span className="first-block">Dirección:</span><span className="second-block">{ info.address }, { info.city } - { info.postalCode } -({ info.province })</span></li>
             </ul>
           </div>
           <div className="col-md-8">
-            <h2>Hello There!</h2>
-            <p>There live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in bookmarksgrove there live the blind texts far from the countries.</p>
-            <p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
+            <h2>Hola a todos!</h2>
+            <p>{ info.info }</p>
           </div>
         </div>
       </div>
     </div>
   );
 
+}
+
+AboutMe.propTypes = {
+  infoPersonal: PropTypes.object.isRequired
 }
