@@ -7,6 +7,11 @@ import portfolio5 from './images/portfolio-5.jpg';
 import portfolio6 from './images/portfolio-6.jpg';
 import portfolio7 from './images/portfolio-7.jpg';
 import portfolio8 from './images/portfolio-8.jpg';
+import cursoComponentes from './images/curso-componentes.jpg';
+import cursoEcmascript6 from './images/curso-ecmascript6.jpg';
+import cursoRxjs from './images/curso-rxjs.jpg';
+import cursoSql from './images/curso-sql.jpg';
+import cursoAngular from './images/curso-angular.jpg';
 
 export const infoPersonal = {
   name: 'Manuel Jiménez Molina',
@@ -193,4 +198,32 @@ export const myWorks = [
     technology: 'Angular',
     photo: portfolio8
   },
-]
+];
+
+export const lastCourses = [
+  {
+    title: 'ECMAScript6 y todos sus detalles',
+    date: '18/07/2020',
+    photo: cursoEcmascript6
+  },
+  {
+    title: 'SQL - Base de datos avanzado',
+    date: '13/05/2020',
+    photo: cursoSql
+  },
+  {
+    title: 'Componentes en Angular - nivel PRO',
+    date: '05/04/2020',
+    photo: cursoComponentes
+  },
+  {
+    title: 'ReactiveX - RxJs y sus detalles',
+    date: '29/03/2020',
+    photo: cursoRxjs
+  },
+  {
+    title: 'Angular nivel avanzado',
+    date: '13/02/2020',
+    photo: cursoAngular
+  }
+];
