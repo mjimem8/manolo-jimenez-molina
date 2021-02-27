@@ -1,4 +1,12 @@
 import { calculateMoths } from "./utils/utils";
+import portfolio1 from './images/portfolio-1.jpg';
+import portfolio2 from './images/portfolio-2.jpg';
+import portfolio3 from './images/portfolio-3.jpg';
+import portfolio4 from './images/portfolio-4.jpg';
+import portfolio5 from './images/portfolio-5.jpg';
+import portfolio6 from './images/portfolio-6.jpg';
+import portfolio7 from './images/portfolio-7.jpg';
+import portfolio8 from './images/portfolio-8.jpg';
 
 export const infoPersonal = {
   name: 'Manuel Jiménez Molina',
@@ -142,5 +150,47 @@ export const skills = [
     name: 'Testing (Enzyme y Jest)',
     percentaje: '60',
   }
-  
 ];
+
+export const myWorks = [
+  {
+    name: 'Inventario Estratos Plus',
+    technology: 'Ionic',
+    photo: portfolio1
+  },
+  {
+    name: 'QuestionApp',
+    technology: 'Ionic',
+    photo: portfolio2
+  },
+  {
+    name: 'Partes de trabajo Estratos Plus',
+    technology: 'Ionic',
+    photo: portfolio3
+  },
+  {
+    name: 'Gastos Varios Estratos',
+    technology: 'Ionic',
+    photo: portfolio4
+  },
+  {
+    name: 'TPV',
+    technology: 'Vue.js',
+    photo: portfolio5
+  },
+  {
+    name: 'ERP',
+    technology: 'CakePHP',
+    photo: portfolio6
+  },
+  {
+    name: 'VRT',
+    technology: 'Angular',
+    photo: portfolio7
+  },
+  {
+    name: 'Banca March',
+    technology: 'Angular',
+    photo: portfolio8
+  },
+]
