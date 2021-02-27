@@ -15,7 +15,7 @@ export const News = () => {
         <div className="row">
         {
           lastCourses.map(n => (
-            <NewsBox news={ n }/>
+            <NewsBox key={ n.title } news={ n }/>
           ))
         }
         </div>

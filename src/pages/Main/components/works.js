@@ -14,7 +14,7 @@ export const Works = () => {
       <div className="row">
         { 
           myWorks.map(w => (
-            <WorkBox work={ w } />
+            <WorkBox key={ w.name } work={ w } />
           ))
         }
       </div>
