@@ -92,3 +92,55 @@ export const myServices = [
     subtitle: 'Ayudar a compañeros tecnicamente, como a cliente funcionalmente.'
   },
 ];
+
+export const skills = [
+  {
+    name: 'Angular',
+    percentaje: '95',
+  },
+  {
+    name: 'Javascript',
+    percentaje: '85',
+  }, 
+  {
+    name: 'Typescript',
+    percentaje: '90',
+  }, 
+  {
+    name: 'VUE.js',
+    percentaje: '70',
+  },
+  {
+    name: 'Redux',
+    percentaje: '90',
+  }, 
+  {
+    name: 'CSS y SASS',
+    percentaje: '70',
+  }, 
+  {
+    name: 'Ionic',
+    percentaje: '85',
+  }, 
+  {
+    name: 'Git',
+    percentaje: '80',
+  }, 
+  {
+    name: 'HTML',
+    percentaje: '75',
+  }, 
+  {
+    name: 'React',
+    percentaje: '65',
+  },
+  {
+    name: 'ECMAScript 6',
+    percentaje: '85',
+  }, 
+  {
+    name: 'Testing (Enzyme y Jest)',
+    percentaje: '60',
+  }
+  
+];
