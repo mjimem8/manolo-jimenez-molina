@@ -59,3 +59,36 @@ export const myResume = {
   workExperiences,
   studies
 }
+
+export const myServices = [
+  {
+    icon: 'icon-paintbrush',
+    title: 'Código limpio',
+    subtitle: 'Aplicar toda mi experiencia hacia un código limpio, funcional y facil de leer'
+  },
+  {
+    icon: 'icon-briefcase',
+    title: 'Compromiso',
+    subtitle: 'Implicación total con el proyecto y mejora del producto'
+  },
+  {
+    icon: 'icon-search',
+    title: 'Análisis',
+    subtitle: 'Poder de análisis sobre cualquier tipo de desarrollo con menor o mayor dificultad'
+  },
+  {
+    icon: 'icon-bargraph',
+    title: 'Polivalencia',
+    subtitle: 'Adaptación al proyecto con cualquier tipo de framework o libreria front-end'
+  },
+  {
+    icon: 'icon-genius',
+    title: 'Ideas',
+    subtitle: 'Intención de prestar mis conocimientos para aplicar la mejor solución con el grupo de trabajo.'
+  },
+  {
+    icon: 'icon-chat',
+    title: 'Soporte',
+    subtitle: 'Ayudar a compañeros tecnicamente, como a cliente funcionalmente.'
+  },
+];
