@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import cv from '../../../cv/CV.pdf';
 
 export const AboutMe = ({ infoPersonal: info }) => {
 
@@ -6,7 +7,7 @@ export const AboutMe = ({ infoPersonal: info }) => {
     event.preventDefault(); 
     window.open('https://' + info.gitHub, '_blank');
   }
-  
+
   return (
     <div id="fh5co-about" className="animate-box">
       <div className="container">
@@ -28,6 +29,7 @@ export const AboutMe = ({ infoPersonal: info }) => {
           <div className="col-md-8">
             <h2>Hola a todos!</h2>
             <p>{ info.info }</p>
+            <a href={ cv } download="Manuel Jiménez Molina (CV)">Descargar mi curriculum</a>
           </div>
         </div>
       </div>
