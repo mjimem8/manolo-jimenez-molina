@@ -229,3 +229,9 @@ export const lastCourses = [
     photo: cursoAngular
   }
 ];
+
+export const confEmailJS = {
+  serviceId: 'service_90y8f1w',
+  templateId: 'template_kj7oodx',
+  userId: 'user_vsVcRuT7e7PPe0WgTzP1c'
+}

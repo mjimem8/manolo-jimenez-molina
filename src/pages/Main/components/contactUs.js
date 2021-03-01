@@ -1,6 +1,28 @@
 import cover1 from '../../../images/cover_bg_1.jpg';
+import emailjs from 'emailjs-com';
+import { confEmailJS } from '../../../data';
 
 export const ContactUs = () => {
+
+  const templateParams = {
+    fname: 'James',
+    email: 'emaiol this out!',
+    subject: 'subject',
+    message: 'message'
+};
+ 
+  const send = (e) => {
+    e.preventDefault();
+    const { serviceId, templateId, userId } = confEmailJS;
+    console.log(e);
+
+    // emailjs.send(serviceId, templateId, templateParams, userId)
+    //   .then((response) => {
+    //     //mensaje enviado
+    //   }, (err) => {
+    //     //error
+    //   });
+  }
 
   return (
     <>
@@ -21,7 +43,7 @@ export const ContactUs = () => {
         </div>
         <div className="choose animate-box">
           <h2>Contacto</h2>
-          <form action="#">
+          <form onSubmit={ send }>
             <div className="row form-group">
               <div className="col-md-6">
                 <input type="text" id="fname" className="form-control" placeholder="Tu nombre"/>
