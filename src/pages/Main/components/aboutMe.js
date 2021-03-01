@@ -23,7 +23,8 @@ export const AboutMe = ({ infoPersonal: info }) => {
           </div>
           <div className="col-md-8">
             <h2>Hola a todos!</h2>
-            <p>{ info.info }</p>
+            <p>{ info.info1 }</p>
+            <p>{ info.info2 }</p>
             <a href={ cv } download="Manuel Jiménez Molina (CV)">Descargar mi curriculum</a>
           </div>
         </div>

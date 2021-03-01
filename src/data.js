@@ -24,7 +24,8 @@ export const infoPersonal = {
   city: 'Monturque',
   postalCode: '14930',
   province: 'Córdoba',
-  info: 'Me considero una persona que busca constantemente nuevos retos y aprender en el transcurso de ellos. Me encanta trabajar en equipo y que todos nos retroalimentemos de lo aprendido anteriormente. Desde que inicié en el ámbito laboral de la programación he realizado multitud de cursos especializados en front-end y sobre todo haciendo mucho hincapié en las buenas prácticas.'
+  info1: 'Me considero una persona que busca constantemente nuevos retos y aprender en el transcurso de ellos. Me encanta trabajar en equipo y que todos nos retroalimentemos de lo aprendido anteriormente. Desde que inicié en el ámbito laboral de la programación he realizado multitud de cursos especializados en front-end y sobre todo haciendo mucho hincapié en las buenas prácticas.',
+  info2: 'Actualmente me encuentro trabajando en proyectos de Angular en sus últimas versiones pero además tengo experiencia en otras tecnologias como Ionic, Vue.js, React, etc'
 }
 
 const workExperiences = [

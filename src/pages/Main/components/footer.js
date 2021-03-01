@@ -5,7 +5,7 @@ export const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br/>Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></p>
+            <p>&copy; { new Date().getFullYear() } - Manuel Jiménez Molina </p>
           </div>
         </div>
       </div>
