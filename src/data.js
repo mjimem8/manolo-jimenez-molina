@@ -19,6 +19,7 @@ export const infoPersonal = {
   phone: '692820544',
   email: 'mjimem8@gmail.com',
   gitHub: 'www.github.com/mjimem8',
+  urlLinkedin: 'https://es.linkedin.com/in/manuel-jim%C3%A9nez-molina-a69828187?trk=people-guest_people_search-card',
   address: 'C/ La Viña, nº 17',
   city: 'Monturque',
   postalCode: '14930',
@@ -77,22 +78,22 @@ export const myServices = [
   {
     icon: 'icon-paintbrush',
     title: 'Código limpio',
-    subtitle: 'Aplicar toda mi experiencia hacia un código limpio, funcional y facil de leer'
+    subtitle: 'Aplicar toda mi experiencia hacia un código limpio, funcional y facil de leer.'
   },
   {
     icon: 'icon-briefcase',
     title: 'Compromiso',
-    subtitle: 'Implicación total con el proyecto y mejora del producto'
+    subtitle: 'Implicación total con el proyecto y mejora del producto. Muy metódico en la forma de trabajar'
   },
   {
     icon: 'icon-search',
     title: 'Análisis',
-    subtitle: 'Poder de análisis sobre cualquier tipo de desarrollo con menor o mayor dificultad'
+    subtitle: 'Poder de análisis sobre cualquier tipo de desarrollo con menor o mayor dificultad.'
   },
   {
     icon: 'icon-bargraph',
     title: 'Polivalencia',
-    subtitle: 'Adaptación al proyecto con cualquier tipo de framework o libreria front-end'
+    subtitle: 'Adaptación al proyecto con cualquier tipo de framework o libreria front-end.'
   },
   {
     icon: 'icon-genius',
@@ -102,7 +103,7 @@ export const myServices = [
   {
     icon: 'icon-chat',
     title: 'Soporte',
-    subtitle: 'Ayudar a compañeros tecnicamente, como a cliente funcionalmente.'
+    subtitle: 'Ayudar a compañeros tecnicamente, como a cliente funcionalmente con el proyecto.'
   },
 ];
 

@@ -325,6 +325,12 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 3em;
   }
 }
+
+.info li .second-block a {
+  color: #ce8483;
+  cursor: pointer;
+}
+
 .info li {
   width: 100%;
   float: left;
