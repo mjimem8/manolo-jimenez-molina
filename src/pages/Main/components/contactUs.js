@@ -1,27 +1,75 @@
 import cover1 from '../../../images/cover_bg_1.jpg';
 import emailjs from 'emailjs-com';
 import { confEmailJS } from '../../../data';
+import { useState } from 'react';
 
 export const ContactUs = () => {
 
-  const templateParams = {
-    fname: 'James',
-    email: 'emaiol this out!',
-    subject: 'subject',
-    message: 'message'
-};
+  const [formData, setFormData] = useState({
+    fname: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
+
+  const [formError, setFormErrors] = useState({
+    fname: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
  
+  const handleChange = (value, key) => {
+    setFormData(data => {
+      return {
+        ...data,
+        [key]: value
+      }
+    });
+  }
+
   const send = (e) => {
     e.preventDefault();
-    const { serviceId, templateId, userId } = confEmailJS;
-    console.log(e);
+    
+    validateErrosForms();
+    
+    const invalidForm = Object.values(formData).some(value => !value);
+    if ( !invalidForm ) {
+      const { serviceId, templateId, userId } = confEmailJS;
+      
+      // emailjs.send(serviceId, templateId, formData, userId)
+      // .then((response) => {
+      //   //mensaje enviado
+      //   //refresh pagina
+      // }, (err) => {
+      //   //error
+      // });
+    }
+  }
 
-    // emailjs.send(serviceId, templateId, templateParams, userId)
-    //   .then((response) => {
-    //     //mensaje enviado
-    //   }, (err) => {
-    //     //error
-    //   });
+  const validateErrosForms = () => {
+      if ( formData.email ) {
+        validateEmail(formData.email) ? setError('email', '') : setError('email', 'El formato de correo no es correcto');
+      } else {
+        setError('email', 'Campo requerido')
+      }
+      formData.fname ? setError('fname', '') : setError('fname', 'Campo requerido');
+      formData.subject ? setError('subject', '') : setError('subject', 'Campo requerido');
+      formData.message ? setError('message', '') : setError('message', 'Campo requerido');
+  }
+
+  const validateEmail = (email) => {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
+
+  const setError = (key, value) => {
+    setFormErrors(data => {
+      return {
+        ...data,
+        [key]: value
+      }
+    });
   }
 
   return (
@@ -46,24 +94,28 @@ export const ContactUs = () => {
           <form onSubmit={ send }>
             <div className="row form-group">
               <div className="col-md-6">
-                <input type="text" id="fname" className="form-control" placeholder="Tu nombre"/>
+                <input type="text" id="fname" className="form-control" placeholder="Tu nombre" onChange={ e => handleChange(e.target.value, 'fname') } />
+                <span style={{color: "red"}}>{ formError.fname }</span>
               </div>
             </div>
             <div className="row form-group">
               <div className="col-md-12">
-                <input type="text" id="email" className="form-control" placeholder="Tu correo"/>
-              </div>
-            </div>
-
-            <div className="row form-group">
-              <div className="col-md-12">
-                <input type="text" id="subject" className="form-control" placeholder="Asunto del mensaje"/>
+                <input type="text" id="email" className="form-control" placeholder="Tu correo" onChange={ e => handleChange(e.target.value, 'email') } />
+                <span style={{color: "red"}}>{ formError.email }</span>
               </div>
             </div>
 
             <div className="row form-group">
               <div className="col-md-12">
-                <textarea name="message" id="message" cols="30" rows="10" className="form-control" placeholder="Mensaje"></textarea>
+                <input type="text" id="subject" className="form-control" placeholder="Asunto del mensaje" onChange={ e => handleChange(e.target.value, 'subject') } />
+                <span style={{color: "red"}}>{ formError.subject }</span>
+              </div>
+            </div>
+
+            <div className="row form-group">
+              <div className="col-md-12">
+                <textarea name="message" id="message" cols="30" rows="10" className="form-control" placeholder="Mensaje" onChange={ e => handleChange(e.target.value, 'message') }></textarea>
+                <span style={{color: "red"}}>{ formError.message }</span>
               </div>
             </div>
             <div className="form-group">
