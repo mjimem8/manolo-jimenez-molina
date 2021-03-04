@@ -1,11 +1,11 @@
-import cover3 from '../../../images/cover_bg_3.jpg';
+import background_footer from '../../../images/background_footer.jpg';
 import user from '../../../images/user-3.jpg';
 import PropTypes from 'prop-types';
 
 export const Header = ({ name, profession, urlLinkedin }) => {
   
   return (
-    <header id="fh5co-header" className="fh5co-cover js-fullheight" role="banner" style={{backgroundImage: `url(${cover3})`}} data-stellar-background-ratio="0.5">
+    <header id="fh5co-header" className="fh5co-cover js-fullheight" role="banner" style={{backgroundImage: `url(${background_footer})`}} data-stellar-background-ratio="0.5">
       <div className="overlay"></div>
       <div className="container">
         <div className="row">

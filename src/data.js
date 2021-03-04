@@ -1,12 +1,12 @@
 import { calculateMoths } from "./utils/utils";
-import portfolio1 from './images/portfolio-1.jpg';
-import portfolio2 from './images/portfolio-2.jpg';
-import portfolio3 from './images/portfolio-3.jpg';
-import portfolio4 from './images/portfolio-4.jpg';
-import portfolio5 from './images/portfolio-5.jpg';
-import portfolio6 from './images/portfolio-6.jpg';
-import portfolio7 from './images/portfolio-7.jpg';
-import portfolio8 from './images/portfolio-8.jpg';
+import questionApp from './images/questionapp.jpg';
+import partes from './images/partes.jpg';
+import inventario from './images/inventario.jpg';
+import gastosvarios from './images/gastosvarios.jpg';
+import erp from './images/erp.jpg';
+import bancamarch from './images/bancamarch.PNG';
+import tpv from './images/tpv.jpeg';
+import vrt from './images/vrt.jpg';
 import cursoComponentes from './images/curso-componentes.jpg';
 import cursoEcmascript6 from './images/curso-ecmascript6.jpg';
 import cursoRxjs from './images/curso-rxjs.jpg';
@@ -163,42 +163,42 @@ export const myWorks = [
   {
     name: 'Inventario Estratos Plus',
     technology: 'Ionic',
-    photo: portfolio1
+    photo: inventario
   },
   {
     name: 'QuestionApp',
     technology: 'Ionic',
-    photo: portfolio2
+    photo: questionApp
   },
   {
     name: 'Partes de trabajo Estratos Plus',
     technology: 'Ionic',
-    photo: portfolio3
+    photo: partes
   },
   {
     name: 'Gastos Varios Estratos',
     technology: 'Ionic',
-    photo: portfolio4
+    photo: gastosvarios
   },
   {
     name: 'TPV',
     technology: 'Vue.js',
-    photo: portfolio5
+    photo: tpv
   },
   {
     name: 'ERP',
     technology: 'CakePHP',
-    photo: portfolio6
+    photo: erp
   },
   {
     name: 'VRT',
     technology: 'Angular',
-    photo: portfolio7
+    photo: vrt
   },
   {
     name: 'Banca March',
     technology: 'Angular',
-    photo: portfolio8
+    photo: bancamarch
   },
 ];
 
