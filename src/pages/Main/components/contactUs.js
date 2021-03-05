@@ -2,8 +2,12 @@ import cover1 from '../../../images/cover_bg_1.jpg';
 import emailjs from 'emailjs-com';
 import { confEmailJS } from '../../../data';
 import { useState } from 'react';
+import { ModalSimple } from '../../../shared/modalSimple';
 
 export const ContactUs = () => {
+
+  const [showModalError, setShowModalError] = useState(false);
+  const [showModalSuccess, setShowModalSuccess] = useState(false);
 
   const [formData, setFormData] = useState({
     fname: '',
@@ -33,17 +37,19 @@ export const ContactUs = () => {
     
     validateErrosForms();
     
-    const invalidForm = Object.values(formData).some(value => !value);
+    const invalidForm = Object.values(formData).some(value => !value) || !validateEmail(formData.email);
     if ( !invalidForm ) {
       const { serviceId, templateId, userId } = confEmailJS;
-      
-      // emailjs.send(serviceId, templateId, formData, userId)
-      // .then((response) => {
-      //   //mensaje enviado
-      //   //refresh pagina
-      // }, (err) => {
-      //   //error
-      // });
+          
+      emailjs.send(serviceId, templateId, formData, userId)
+      .then(() => {
+        setShowModalSuccess(true);
+        setTimeout(() => {
+          window.location.reload();
+        }, 1500); 
+      }, (err) => {
+        setShowModalError(true)
+      });
     }
   }
 
@@ -125,6 +131,9 @@ export const ContactUs = () => {
           </form>	
         </div>
       </div>
+
+      <ModalSimple title={ 'Enviado' } body={ 'Su mensaje ha sido enviado correctamente' } show={ showModalSuccess } setShow={ setShowModalSuccess } />
+      <ModalSimple title={ 'Error' } body={ 'Ha habido un error inexperado. Intentelo de nuevo mas tarde o pongase en contacto con los datos personales facilitados' } show={ showModalError } setShow={ setShowModalError } />
     </>
   );
 
