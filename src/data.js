@@ -163,41 +163,49 @@ export const myWorks = [
   {
     name: 'Inventario Estratos Plus',
     technology: 'Ionic',
+    description: 'Esta aplicación la hice integramente yo (incluido estilos), desarrollada en Ionic 3. Es un lector de códigos de barras y números de serie de productos. Esta app era autosuficiente a niveles de api rest, ya que no necesitaba que se consumiera ningún endpoint. Para que la app te diera la posibilidad de hacer el inventario era necesario cargar un fichero .csv que dentro tenia todos los datos para hacer el inventario y además un codigo hash que debia de ser desencriptado en la app para así validar si el fichero era correcto. Posteriormente a la carga del fichero ya se podia hacer la lectura de códigos de barras/números de serie con el plugin barcode scanner de cordova y así realizar el inventario. Los datos se iban guardando en sqlite (base de datos para dispositivos moviles) y cuando el inventario se habia terminado, el sistema daba la opción de descargar un fichero .csv generado con toda la información que se habia guardado en sqlite y además con un nuevo hash encriptado para desencriptarlo en un sistema externo a la app. Se puede ver en Play Store.',
     photo: inventario
   },
   {
     name: 'QuestionApp',
     technology: 'Ionic',
+    description: 'Esta aplicación la hice integramente yo (incluido estilos), desarrollada en Ionic 3. Es un sistema de encuestas. El usuario necesitaba login para acceder a dicha aplicación y una vez dentro de ella procedia a hacer unas encuentas que tenia pendientes de realizar. En esta aplicación se consumieron los endpoint con la libreria axios. Se puede ver en Play Store.',
     photo: questionApp
   },
   {
     name: 'Partes de trabajo Estratos Plus',
     technology: 'Ionic',
+    description: 'Esta aplicación la hice integramente yo (incluido estilos), desarrollada en Ionic 3. Es un sistema para que los técnicos informaticos registren partes de asistencia que le quedan pendientes. En esta aplicación se consumieron los endpoint con la libreria axios. Se puede ver en Play Store.',
     photo: partes
   },
   {
     name: 'Gastos Varios Estratos',
     technology: 'Ionic',
+    description: 'Esta aplicación la hice integramente yo (incluido estilos), desarrollada en Ionic 3. Es un sistema de registro de gastos. El usuario necesitaba login para acceder a dicha aplicación y posteriormente podia enviar el gasto adjuntandolo con una imagen de la galeria propia del movil o bien haciendo una foto con el plugin de cordova. Posteriormente al envio del gasto (mediante la libreria axios), el gasto se guardaba localmente en el movil mediante el storage para mostrar un historico de gastos y este era eliminado de dicho historico pasado un tiempo determinado automaticamente.',
     photo: gastosvarios
   },
   {
     name: 'TPV',
     technology: 'Vue.js',
+    description: 'Esta aplicación la hice integramente yo (incluido estilos), desarrollada en Vue.js. Se consumian los datos de la API a través de axios y posteriormente se utilizaba vuex para una mejor progación de los datos por distintos componentes',
     photo: tpv
   },
   {
     name: 'ERP',
     technology: 'CakePHP',
+    description: 'Fuí desarrollador de un ERP en cakePHP, manejando base de datos en mysql, desarrollando test, etc',
     photo: erp
   },
   {
     name: 'VRT',
     technology: 'Angular',
+    description: 'Fuí desarrollador de un sistema para el registro del desplazamiento de automoviles. Utilizando Typescript con redux, manejo constante de rxjs (Reactive x) y otras muchas librerias propias para el desarrollo de una aplicación web. Los endpoints se consumian con promesas.',
     photo: vrt
   },
   {
     name: 'Banca March',
     technology: 'Angular',
+    description: 'Soy participe de un grupo de personas desarrollando en Angular (últimas versiones) un sistema bancario. Utilizando Typescript con redux, manejo constante de rxjs (Reactive x) y otras muchas librerias propias para el desarrollo de una aplicación web bancaria.',
     photo: bancamarch
   },
 ];

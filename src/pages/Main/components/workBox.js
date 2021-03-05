@@ -13,7 +13,7 @@ export const WorkBox = ({work}) => {
           <span>{ work.technology }</span>
         </div>
       </a>
-      <ModalSimple title={ work.name } body={ work.name } show={ show } setShow={ setShow } />
+      <ModalSimple title={ work.name } body={ work.description } show={ show } setShow={ setShow } />
     </div>
   );
 
