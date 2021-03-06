@@ -1,5 +1,5 @@
 import background_footer from '../../../images/background_footer.jpg';
-import user from '../../../images/user-3.jpg';
+import me from '../../../images/me.jpg';
 import PropTypes from 'prop-types';
 
 export const Header = ({ name, profession, urlLinkedin }) => {
@@ -12,7 +12,7 @@ export const Header = ({ name, profession, urlLinkedin }) => {
           <div className="col-md-8 col-md-offset-2 text-center">
             <div className="display-t js-fullheight">
               <div className="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-                <div className="profile-thumb" style={{backgroundImage: `url(${user})`}}></div>
+                <div className="profile-thumb" style={{backgroundImage: `url(${me})`}}></div>
                 <h1><span>{ name }</span></h1>
                 <h3><span>{ profession }</span></h3>
                 <ul className="fh5co-social-icons">
