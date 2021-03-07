@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import cv from '../../../cv/CV.pdf';
 

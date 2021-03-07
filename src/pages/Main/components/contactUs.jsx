@@ -1,3 +1,4 @@
+import React from 'react';
 import cover1 from '../../../images/cover_bg_1.jpg';
 import emailjs from 'emailjs-com';
 import { confEmailJS } from '../../../data';

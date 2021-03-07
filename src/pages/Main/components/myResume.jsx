@@ -1,3 +1,4 @@
+import React from 'react';
 import { myResume } from "../../../data";
 import { BranchBox } from "./branchBox";
 

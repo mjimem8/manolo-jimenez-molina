@@ -1,3 +1,4 @@
+import React from 'react';
 import { ServiceBox } from "./serviceBox";
 import { myServices } from "../../../data";
 

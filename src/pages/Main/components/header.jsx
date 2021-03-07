@@ -1,3 +1,4 @@
+import React from 'react';
 import background_footer from '../../../images/background_footer.jpg';
 import me from '../../../images/me.jpg';
 import PropTypes from 'prop-types';

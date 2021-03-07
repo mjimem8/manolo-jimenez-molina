@@ -1,3 +1,4 @@
+import React from 'react';
 import { myWorks } from "../../../data";
 import { WorkBox } from "./workBox";
 

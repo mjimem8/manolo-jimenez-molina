@@ -1,3 +1,4 @@
+import React from 'react';
 export const SkillBox = ({percentaje, name}) => {
 
   const randomNumber = Math.floor(Math.random() * 5) + 1;

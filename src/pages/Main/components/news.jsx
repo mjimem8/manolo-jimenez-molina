@@ -1,3 +1,4 @@
+import React from 'react';
 import { lastCourses } from "../../../data";
 import { NewsBox } from "./newsBox";
 
