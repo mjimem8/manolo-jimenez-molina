@@ -1,7 +1,7 @@
 import { calculateMoths } from "./utils/utils";
-import questionApp from './images/questionapp.jpg';
+import questionApp from './images/questionapp.png';
 import partes from './images/partes.jpg';
-import inventario from './images/inventario.jpg';
+import inventario from './images/inventario.png';
 import gastosvarios from './images/gastosvarios.jpg';
 import erp from './images/erp.jpg';
 import bancamarch from './images/bancamarch.PNG';
@@ -30,43 +30,43 @@ export const infoPersonal = {
 
 const workExperiences = [
   {
-    header: 'PubliCUBE',
+    header: 'Atmira',
     subheader1: 'Front-end',
-    subheader2: '3 meses (marzo 2017 - junio 2017)',
-    body: 'Estuve desarrollando apps híbridas con ionic v1 (AngularJS) y pude hacer parte de la migración de una aplicación a v2. También programé plugins para wordpress utilizando php y jquery. En este tramo de tiempo no solo estuve centrado en la parte de la lógica, también estuve un tiempo focalizado en aplicar estilos. ',
-  },
-  {
-    header: 'Aicor Consultores',
-    subheader1: 'Full-stack',
-    subheader2: '1 año y 6 meses (septiembre 2018 - febrero 2020)',
-    body: 'Principalmente era desarrollador de aplicaciones híbridas con ionic (hice unas 3 íntegramente yo) con versiones 2 y 3, pero fui intercalando con el desarrollo de algunas aplicaciones SPA con VUE.js y de un ERP desarrollado con CakePHP. En este periodo de tiempo aprendí mucho sobre las buenas prácticas de la programación como los principios SOLID o la metodología de diseño TDD.',
+    subheader2: `${calculateMoths(new Date('2020/06/17'))} meses (junio 2020 - actualidad)`,
+    body: 'Actualmente me encuentro en Atmira desarrollando en las últimas versiones de Angular. Personalmente estoy aprendiendo nuevas tecnologías en mi tiempo libre, ya que me gusta estar reciclándome como profesional.',
   }, 
   {
     header: 'GRUPO SOLUTIO',
     subheader1: 'Front-end',
     subheader2: '3 meses (febrero 2020 - mayo 2020)',
     body: 'Estuve íntegramente dedicado al desarrollo de aplicaciones web con Angular en versiones 5 y 6.',
-  }, 
+  },
   {
-    header: 'Atmira',
+    header: 'Aicor Consultores',
+    subheader1: 'Full-stack',
+    subheader2: '1 año y 6 meses (septiembre 2018 - febrero 2020)',
+    body: 'Principalmente era desarrollador de aplicaciones híbridas con ionic (hice unas 3 íntegramente yo) con versiones 2 y 3, pero fui intercalando con el desarrollo de algunas aplicaciones SPA con VUE.js y de un ERP desarrollado con CakePHP. En este periodo de tiempo aprendí mucho sobre las buenas prácticas de la programación como los principios SOLID o la metodología de diseño TDD.',
+  },
+  {
+    header: 'PubliCUBE',
     subheader1: 'Front-end',
-    subheader2: `${calculateMoths(new Date('2020/06/17'))} meses (junio 2020 - actualidad)`,
-    body: 'Actualmente me encuentro en Atmira desarrollando en las últimas versiones de Angular. Personalmente estoy aprendiendo nuevas tecnologías en mi tiempo libre, ya que me gusta estar reciclándome como profesional.',
+    subheader2: '3 meses (marzo 2017 - junio 2017)',
+    body: 'Estuve desarrollando apps híbridas con ionic v1 (AngularJS) y pude hacer parte de la migración de una aplicación a v2. También programé plugins para wordpress utilizando php y jquery. En este tramo de tiempo no solo estuve centrado en la parte de la lógica, también estuve un tiempo focalizado en aplicar estilos. ',
   }
 ];
 
 const studies = [
   {
-    header: 'Grado Medio de Sistemas Microinformáticos y Redes',
-    subheader1: '2011-2013',
+    header: 'Grado Superior de Desarrollo de Aplicaciones Web',
+    subheader1: '2017-2018',
   },
   {
     header: 'Grado Superior de Desarrollo de Aplicaciones Multiplataforma',
     subheader1: '2015-2017',
   }, 
   {
-    header: 'Grado Superior de Desarrollo de Aplicaciones Web',
-    subheader1: '2017-2018',
+    header: 'Grado Medio de Sistemas Microinformáticos y Redes',
+    subheader1: '2011-2013',
   }
 ];
 
