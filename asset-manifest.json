@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/manolo-jimenez-molina/static/css/main.5cb3e763.chunk.css",
-    "main.js": "/manolo-jimenez-molina/static/js/main.805ba796.chunk.js",
-    "main.js.map": "/manolo-jimenez-molina/static/js/main.805ba796.chunk.js.map",
+    "main.css": "/manolo-jimenez-molina/static/css/main.3da22856.chunk.css",
+    "main.js": "/manolo-jimenez-molina/static/js/main.a8c6c1a2.chunk.js",
+    "main.js.map": "/manolo-jimenez-molina/static/js/main.a8c6c1a2.chunk.js.map",
     "runtime-main.js": "/manolo-jimenez-molina/static/js/runtime-main.ac644620.js",
     "runtime-main.js.map": "/manolo-jimenez-molina/static/js/runtime-main.ac644620.js.map",
     "static/js/2.5e1f8583.chunk.js": "/manolo-jimenez-molina/static/js/2.5e1f8583.chunk.js",
     "static/js/2.5e1f8583.chunk.js.map": "/manolo-jimenez-molina/static/js/2.5e1f8583.chunk.js.map",
     "index.html": "/manolo-jimenez-molina/index.html",
-    "static/css/main.5cb3e763.chunk.css.map": "/manolo-jimenez-molina/static/css/main.5cb3e763.chunk.css.map",
+    "static/css/main.3da22856.chunk.css.map": "/manolo-jimenez-molina/static/css/main.3da22856.chunk.css.map",
     "static/js/2.5e1f8583.chunk.js.LICENSE.txt": "/manolo-jimenez-molina/static/js/2.5e1f8583.chunk.js.LICENSE.txt",
     "static/media/CV.8d15812d.pdf": "/manolo-jimenez-molina/static/media/CV.8d15812d.pdf",
     "static/media/background_footer.c6f01e0d.jpg": "/manolo-jimenez-molina/static/media/background_footer.c6f01e0d.jpg",
@@ -20,20 +20,20 @@
     "static/media/curso-rxjs.e463ed6f.jpg": "/manolo-jimenez-molina/static/media/curso-rxjs.e463ed6f.jpg",
     "static/media/curso-sql.c4a297eb.jpg": "/manolo-jimenez-molina/static/media/curso-sql.c4a297eb.jpg",
     "static/media/erp.4943b760.jpg": "/manolo-jimenez-molina/static/media/erp.4943b760.jpg",
-    "static/media/gastosvarios.0d36ba9f.jpg": "/manolo-jimenez-molina/static/media/gastosvarios.0d36ba9f.jpg",
+    "static/media/gastosvarios.47c4358e.jpg": "/manolo-jimenez-molina/static/media/gastosvarios.47c4358e.jpg",
     "static/media/icomoon.css": "/manolo-jimenez-molina/static/media/icomoon.f53fba80.eot",
-    "static/media/inventario.75b5c04b.jpg": "/manolo-jimenez-molina/static/media/inventario.75b5c04b.jpg",
+    "static/media/inventario.7c41a6f2.png": "/manolo-jimenez-molina/static/media/inventario.7c41a6f2.png",
     "static/media/style.css": "/manolo-jimenez-molina/static/media/loader.6e632ee3.gif",
     "static/media/me.7d0d8cf6.jpg": "/manolo-jimenez-molina/static/media/me.7d0d8cf6.jpg",
-    "static/media/partes.341005a0.jpg": "/manolo-jimenez-molina/static/media/partes.341005a0.jpg",
-    "static/media/questionapp.dd44a476.jpg": "/manolo-jimenez-molina/static/media/questionapp.dd44a476.jpg",
+    "static/media/partes.e28d8b95.jpg": "/manolo-jimenez-molina/static/media/partes.e28d8b95.jpg",
+    "static/media/questionapp.c7047408.png": "/manolo-jimenez-molina/static/media/questionapp.c7047408.png",
     "static/media/tpv.f1fbbf66.jpeg": "/manolo-jimenez-molina/static/media/tpv.f1fbbf66.jpeg",
     "static/media/vrt.5c96f3f4.jpg": "/manolo-jimenez-molina/static/media/vrt.5c96f3f4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ac644620.js",
     "static/js/2.5e1f8583.chunk.js",
-    "static/css/main.5cb3e763.chunk.css",
-    "static/js/main.805ba796.chunk.js"
+    "static/css/main.3da22856.chunk.css",
+    "static/js/main.a8c6c1a2.chunk.js"
   ]
 }
