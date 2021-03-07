@@ -84,7 +84,7 @@ export const ContactUs = () => {
         <div className="container">
           <div className="row animate-box">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2>Consultame!</h2>
+              <h2>Consúltame!</h2>
               <p>¿Tienes alguna pregunta? No dudes en contactar conmigo, yo siempre estoy abierto a tener una bonita charla técnica.</p>
             </div>
           </div>
