@@ -1,3 +1,2 @@
 npm run build
-cambiar logo512 y logo192 a la carpeta build
 npm run deploy
