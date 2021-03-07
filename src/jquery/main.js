@@ -59,7 +59,7 @@ import $ from 'jquery';
 	
 	$(function(){
 		goToTop();
-		loaderPage();
+		// loaderPage();
 		fullHeight();
 	});
 

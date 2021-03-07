@@ -14,7 +14,7 @@ export const Main = () => {
 
     return (
         <>
-           <div className="fh5co-loader"></div>
+           {/* <div className="fh5co-loader"></div> */}
 	
             <div id="page">	
               <Header name={ infoPersonal.name } profession={ infoPersonal.profession } urlLinkedin={ infoPersonal.urlLinkedin }/>
