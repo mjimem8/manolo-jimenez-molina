@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/manolo-jimenez-molina/static/css/main.cad30e6c.chunk.css",
+    "main.css": "/manolo-jimenez-molina/static/css/main.5cb3e763.chunk.css",
     "main.js": "/manolo-jimenez-molina/static/js/main.805ba796.chunk.js",
     "main.js.map": "/manolo-jimenez-molina/static/js/main.805ba796.chunk.js.map",
     "runtime-main.js": "/manolo-jimenez-molina/static/js/runtime-main.ac644620.js",
@@ -8,7 +8,7 @@
     "static/js/2.5e1f8583.chunk.js": "/manolo-jimenez-molina/static/js/2.5e1f8583.chunk.js",
     "static/js/2.5e1f8583.chunk.js.map": "/manolo-jimenez-molina/static/js/2.5e1f8583.chunk.js.map",
     "index.html": "/manolo-jimenez-molina/index.html",
-    "static/css/main.cad30e6c.chunk.css.map": "/manolo-jimenez-molina/static/css/main.cad30e6c.chunk.css.map",
+    "static/css/main.5cb3e763.chunk.css.map": "/manolo-jimenez-molina/static/css/main.5cb3e763.chunk.css.map",
     "static/js/2.5e1f8583.chunk.js.LICENSE.txt": "/manolo-jimenez-molina/static/js/2.5e1f8583.chunk.js.LICENSE.txt",
     "static/media/CV.8d15812d.pdf": "/manolo-jimenez-molina/static/media/CV.8d15812d.pdf",
     "static/media/background_footer.c6f01e0d.jpg": "/manolo-jimenez-molina/static/media/background_footer.c6f01e0d.jpg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.ac644620.js",
     "static/js/2.5e1f8583.chunk.js",
-    "static/css/main.cad30e6c.chunk.css",
+    "static/css/main.5cb3e763.chunk.css",
     "static/js/main.805ba796.chunk.js"
   ]
 }
