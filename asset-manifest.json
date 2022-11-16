@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/manolo-jimenez-molina/static/css/main.3da22856.chunk.css",
-    "main.js": "/manolo-jimenez-molina/static/js/main.a8c6c1a2.chunk.js",
-    "main.js.map": "/manolo-jimenez-molina/static/js/main.a8c6c1a2.chunk.js.map",
+    "main.js": "/manolo-jimenez-molina/static/js/main.4620eff7.chunk.js",
+    "main.js.map": "/manolo-jimenez-molina/static/js/main.4620eff7.chunk.js.map",
     "runtime-main.js": "/manolo-jimenez-molina/static/js/runtime-main.ac644620.js",
     "runtime-main.js.map": "/manolo-jimenez-molina/static/js/runtime-main.ac644620.js.map",
     "static/js/2.5e1f8583.chunk.js": "/manolo-jimenez-molina/static/js/2.5e1f8583.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/manolo-jimenez-molina/index.html",
     "static/css/main.3da22856.chunk.css.map": "/manolo-jimenez-molina/static/css/main.3da22856.chunk.css.map",
     "static/js/2.5e1f8583.chunk.js.LICENSE.txt": "/manolo-jimenez-molina/static/js/2.5e1f8583.chunk.js.LICENSE.txt",
-    "static/media/CV.8d15812d.pdf": "/manolo-jimenez-molina/static/media/CV.8d15812d.pdf",
+    "static/media/CV.e14b6d47.pdf": "/manolo-jimenez-molina/static/media/CV.e14b6d47.pdf",
     "static/media/background_footer.c6f01e0d.jpg": "/manolo-jimenez-molina/static/media/background_footer.c6f01e0d.jpg",
     "static/media/bancamarch.7ac6bacd.PNG": "/manolo-jimenez-molina/static/media/bancamarch.7ac6bacd.PNG",
     "static/media/cover_bg_1.56ac224c.jpg": "/manolo-jimenez-molina/static/media/cover_bg_1.56ac224c.jpg",
@@ -27,6 +27,7 @@
     "static/media/me.7d0d8cf6.jpg": "/manolo-jimenez-molina/static/media/me.7d0d8cf6.jpg",
     "static/media/partes.e28d8b95.jpg": "/manolo-jimenez-molina/static/media/partes.e28d8b95.jpg",
     "static/media/questionapp.c7047408.png": "/manolo-jimenez-molina/static/media/questionapp.c7047408.png",
+    "static/media/sanitas.4d3aec12.jpg": "/manolo-jimenez-molina/static/media/sanitas.4d3aec12.jpg",
     "static/media/tpv.f1fbbf66.jpeg": "/manolo-jimenez-molina/static/media/tpv.f1fbbf66.jpeg",
     "static/media/vrt.5c96f3f4.jpg": "/manolo-jimenez-molina/static/media/vrt.5c96f3f4.jpg"
   },
@@ -34,6 +35,6 @@
     "static/js/runtime-main.ac644620.js",
     "static/js/2.5e1f8583.chunk.js",
     "static/css/main.3da22856.chunk.css",
-    "static/js/main.a8c6c1a2.chunk.js"
+    "static/js/main.4620eff7.chunk.js"
   ]
 }
