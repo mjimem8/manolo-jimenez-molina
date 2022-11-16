@@ -7,6 +7,7 @@ import erp from './images/erp.jpg';
 import bancamarch from './images/bancamarch.PNG';
 import tpv from './images/tpv.jpeg';
 import vrt from './images/vrt.jpg';
+import sanitas from './images/sanitas.jpg';
 import cursoComponentes from './images/curso-componentes.jpg';
 import cursoEcmascript6 from './images/curso-ecmascript6.jpg';
 import cursoRxjs from './images/curso-rxjs.jpg';
@@ -30,10 +31,16 @@ export const infoPersonal = {
 
 const workExperiences = [
   {
+    header: 'Iteriam',
+    subheader1: 'Front-end',
+    subheader2: `${calculateMoths(new Date('2021/05/01'))} meses (mayo 2021 - actualidad)`,
+    body: 'Actualmente me encuentro en Iteriam desarrollando en las últimas versiones de Angular, concretamente para un gran cliente como Sanitas en una aplicación hibrida en ionic.',
+  }, 
+  {
     header: 'Atmira',
     subheader1: 'Front-end',
-    subheader2: `${calculateMoths(new Date('2020/06/17'))} meses (junio 2020 - actualidad)`,
-    body: 'Actualmente me encuentro en Atmira desarrollando en las últimas versiones de Angular. Personalmente estoy aprendiendo nuevas tecnologías en mi tiempo libre, ya que me gusta estar reciclándome como profesional.',
+    subheader2: `1 año (junio 2020 - mayo 2021)`,
+    body: 'Estuve desarrollando en las últimas versiones de Angular.',
   }, 
   {
     header: 'GRUPO SOLUTIO',
@@ -115,11 +122,11 @@ export const skills = [
   },
   {
     name: 'Javascript',
-    percentaje: '85',
+    percentaje: '90',
   }, 
   {
     name: 'Typescript',
-    percentaje: '90',
+    percentaje: '95',
   }, 
   {
     name: 'VUE.js',
@@ -139,11 +146,11 @@ export const skills = [
   }, 
   {
     name: 'Git',
-    percentaje: '80',
+    percentaje: '85',
   }, 
   {
     name: 'HTML',
-    percentaje: '75',
+    percentaje: '80',
   }, 
   {
     name: 'React',
@@ -155,7 +162,7 @@ export const skills = [
   }, 
   {
     name: 'Testing (Enzyme y Jest)',
-    percentaje: '60',
+    percentaje: '80',
   }
 ];
 
@@ -205,8 +212,14 @@ export const myWorks = [
   {
     name: 'Banca March',
     technology: 'Angular',
-    description: 'Soy partícipe de un grupo de personas desarrollando en Angular (últimas versiones) un sistema bancario. Utilizando Typescript con redux, manejo constante de rxjs (Reactive x) y otras muchas librerías propias para el desarrollo de una aplicación web bancaria.',
+    description: 'Fui participe de un grupo de personas desarrollando en Angular (últimas versiones) un sistema bancario. Utilizando Typescript con redux, manejo constante de rxjs (Reactive x) y otras muchas librerías propias para el desarrollo de una aplicación web bancaria.',
     photo: bancamarch
+  },
+  {
+    name: 'Sanitas',
+    technology: 'Ionic',
+    description: 'Soy partícipe de un grupo de personas desarrollando en Ionic (últimas versiones) en un cliente de seguros de salud mas importantes a nivel mundial. Utilizando Angular con TypeScript y otras muchas librerías propias para el desarrollo de la aplicación.',
+    photo: sanitas
   },
 ];
 
